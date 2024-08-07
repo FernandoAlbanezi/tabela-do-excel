@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #06631e;
+    text-align: left;
+    padding: 8px;
+    bottom: 100px;
+  }
+  th {
+    background-color: #06852e;
+  }
+  .cell-selected {
+    background-color: #959595;
+  }
+
+.excel-header {
+  background-color: #e7e6e6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.excel-tab {
+  margin-right: 15px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
